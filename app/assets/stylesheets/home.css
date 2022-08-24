@@ -4,15 +4,116 @@ body {
 
 #quiz {
   background-color: #c5d5ac;
-  padding: 10px 15px;
   text-align: center;
+  padding: 8px 12px;
 }
 
 a {
   color: #425733;
   width: 100%;
-  font-size: 11px;
+  font-size: 9px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+#header {
+  height: 96px;
+  background-color: white;
+  position: sticky;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.banner img {
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.banner h1 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner p {
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.section {
+  margin: 0px 94px;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.card img {
+  border-radius: 8px;
+  width: 296px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin: 0px;
+  text-align: center;
+}
+
+#top {
+  margin-top: 64px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 11px;
+  padding: 10px 36px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+#bg {
+  background-color: #727e38;
+}
+
+#f {
+  background-color: #ffb08d;
+}
+
+#s {
+  background-color: #addbea;
 }
