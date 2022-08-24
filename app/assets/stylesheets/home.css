@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+#quiz {
+  background-color: #c5d5ac;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+a {
+  color: #425733;
+  width: 100%;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+}
