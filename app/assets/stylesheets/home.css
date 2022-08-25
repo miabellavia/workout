@@ -60,9 +60,14 @@ a {
 
 }
 
+.card {
+  width: 300px;
+}
+
 .card img {
   border-radius: 8px;
   width: 296px;
+  height: 452px;
 }
 
 p {
@@ -104,16 +109,27 @@ li {
   padding: 10px 36px;
   border: 1px solid transparent;
   color: white;
+  background-color: black;
 }
 
 #bg {
-  background-color: #727e38;
+  /* background-color: #727e38; */
+  margin-left: 32px;
 }
 
 #f {
-  background-color: #ffb08d;
+  /* background-color: #ffb08d; */
+  margin-left: 68px;
 }
 
 #s {
-  background-color: #addbea;
+  /* background-color: #addbea; */
+  margin-left: 48px;
+}
+
+.card p {
+  line-height: 200%;
+  margin: 8px;
+  padding-bottom: 16px;
+  padding-top: 8px;
 }
