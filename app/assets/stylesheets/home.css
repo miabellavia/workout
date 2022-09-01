@@ -3,13 +3,14 @@ body {
 }
 
 #quiz {
-  background-color: #c5d5ac;
+  background-color: black;
   text-align: center;
   padding: 8px 12px;
+
 }
 
 a {
-  color: #425733;
+  color: #fff;
   width: 100%;
   font-size: 9px;
   font-family: 'Montserrat', sans-serif;
@@ -34,40 +35,30 @@ a {
 .banner img {
   background-size: cover;
   width: 100%;
-  position: relative;
 }
 
-.banner h1 {
-  color: white;
-  position: absolute;
-  z-index: 1;
-}
-
-.banner p {
-  color: white;
-  position: absolute;
-  z-index: 1;
-}
 
 .section {
   margin: 0px 94px;
 }
 
-#cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 
 }
 
 .card {
   width: 300px;
+
 }
 
 .card img {
   border-radius: 8px;
   width: 296px;
   height: 452px;
+
 }
 
 p {
@@ -87,7 +78,7 @@ h1 {
   text-align: center;
 }
 
-#top {
+.top {
   margin-top: 64px;
 }
 
@@ -113,17 +104,14 @@ li {
 }
 
 #bg {
-  /* background-color: #727e38; */
   margin-left: 32px;
 }
 
 #f {
-  /* background-color: #ffb08d; */
   margin-left: 68px;
 }
 
 #s {
-  /* background-color: #addbea; */
   margin-left: 48px;
 }
 
@@ -132,4 +120,33 @@ li {
   margin: 8px;
   padding-bottom: 16px;
   padding-top: 8px;
+}
+
+#para2 {
+  padding-left: 500px;
+  padding-right: 500px;
+  margin-bottom: 200px;
+}
+
+hr {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+#lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 64px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 9px;
 }
