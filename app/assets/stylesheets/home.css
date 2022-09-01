@@ -133,6 +133,11 @@ hr {
   margin-bottom: 64px;
 }
 
+.form-sec {
+  display: grid;
+  place-items: center;
+}
+
 #lists {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -149,4 +154,26 @@ li {
   text-align: left;
   margin-bottom: 8px;
   font-size: 9px;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 48px;
+}
+
+#form-btn {
+  color: black;
+  border: 1px solid black;
+  margin-left: 12px;
+  font-size: 12px;
+  padding: 10px 32px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 500px;
+  height: 15px;
 }
